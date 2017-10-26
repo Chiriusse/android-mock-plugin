@@ -1,6 +1,6 @@
 Cordova MOCK
 ======
 
-Use window.MockPLugin.isMockSettingsOn(function(b){ // b: return boolean
+Use window.MockPLugin.isMockSettingsOn(function(b){
 	console.log(b);
-});
+}); // b: return boolean
