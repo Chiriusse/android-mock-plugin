@@ -1,12 +1,12 @@
 
 var exec = require('cordova/exec');
 
-var PLUGIN_NAME = 'MockPLugin';
+var PLUGIN_NAME = 'MockPlugin';
 
-var MockPLugin = {
+var MockPlugin = {
   isMockSettingsOn: function(cb) {
     exec(cb, null, PLUGIN_NAME, 'isMockSettingsOn', []);
   }
 };
 
-module.exports = MockPLugin;
+module.exports = MockPlugin;

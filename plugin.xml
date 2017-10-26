@@ -15,16 +15,16 @@
       <js-module src="www/plugin.js" name="plugin">
         <runs/>
 
-        <!-- This is the window variable name you want, like window.MockPLugin -->
-        <clobbers target="MockPLugin" />
+        <!-- This is the window variable name you want, like window.MockPlugin -->
+        <clobbers target="MockPlugin" />
       </js-module>
       <config-file target="res/xml/config.xml" parent="/*">
-        <feature name="MockPLugin">
-          <param name="android-package" value="com.example.MockPLugin" />
+        <feature name="MockPlugin">
+          <param name="android-package" value="com.example.MockPlugin" />
           <param name="onload" value="true" />
         </feature>
       </config-file>
 
-      <source-file src="src/android/com/example/MockPLugin.java" target-dir="src/com/example/" />
+      <source-file src="src/android/com/example/MockPlugin.java" target-dir="src/com/example/" />
     </platform>
 </plugin>
