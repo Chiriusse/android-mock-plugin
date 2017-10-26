@@ -1,4 +1,6 @@
-Cordova Plugin Template
+Cordova MOCK
 ======
 
-This is a simple starting point for building a Cordova plugin on iOS and Android.
+Use window.MockPLugin.isMockSettingsOn(function(b){ // b: return boolean
+	console.log(b);
+});
