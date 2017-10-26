@@ -21,13 +21,13 @@ import android.util.Log;
 
 import java.util.Date;
 
-public class MockPLugin extends CordovaPlugin {
-  private static final String TAG = "MockPLugin";
+public class MockPlugin extends CordovaPlugin {
+  private static final String TAG = "MockPlugin";
 
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
     super.initialize(cordova, webView);
 
-    Log.d(TAG, "Initializing MockPLugin");
+    Log.d(TAG, "Initializing MockPlugin");
   }
 
   public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
