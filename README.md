@@ -1,4 +1,4 @@
-Cordova MOCK
+Cordova Location MOCK 
 ======
 
 Use window.MockPLugin.isMockSettingsOn(function(b){

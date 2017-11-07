@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-mock"
     version="1.0.0">
-    <name>Cordova plugin mock</name>
+    <name>Cordova location mock</name>
     <description></description>
     <license>MIT</license>
     <keywords>MIT</keywords>
